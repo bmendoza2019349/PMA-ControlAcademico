@@ -1,0 +1,109 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Cursos",
+    "dateExported": "2024-02-25T00:35:08.818Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b562ec5b-638d-4641-9945-80b42e994d47",
+            "colId": "75875fc5-ab00-4f97-83c8-ceb091886998",
+            "containerId": "",
+            "name": "cursosPut",
+            "url": "http://localhost:3000/api/cursos/65da888e5c4e403199d8bca0",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-02-13T03:47:01.151Z",
+            "modified": "2024-02-25T00:26:02.932Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ5M2I0N2U1NWJhMjA1ODJlZGViMmYiLCJpYXQiOjE3MDg4MjA3MzMsImV4cCI6MTcwODgyNDMzM30.GTESVZHff1usfzJcnV9wHjry20InpG_TuYikVAFgyRo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"detalle\": \"educacion matematica basica\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "529a91ea-c6b3-4184-8251-3e1a9874ded2",
+            "colId": "75875fc5-ab00-4f97-83c8-ceb091886998",
+            "containerId": "",
+            "name": "cursosPost",
+            "url": "http://localhost:3000/api/cursos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-13T03:47:10.492Z",
+            "modified": "2024-02-25T00:23:43.018Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ5M2YyYTc1ZWEyNDU0YjIwYTVjMTgiLCJpYXQiOjE3MDg4MTk3OTQsImV4cCI6MTcwODgyMzM5NH0.VQCD3eeiqux-V12Ksiq5NoZYm4qBzcI0um5jt2Pu6pk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Matematica\",\n  \"detalle\": \"Se realizan practicas\",\n  \"acceso\": \"ps\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a4f59c1c-0d8b-4746-9767-e082e808cd0f",
+            "colId": "75875fc5-ab00-4f97-83c8-ceb091886998",
+            "containerId": "",
+            "name": "cursosGet",
+            "url": "http://localhost:3000/api/cursos",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-13T03:47:22.846Z",
+            "modified": "2024-02-18T07:15:55.215Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d6c0869d-d77a-4622-8060-3f6a4d3fb737",
+            "colId": "75875fc5-ab00-4f97-83c8-ceb091886998",
+            "containerId": "",
+            "name": "cursosDelete",
+            "url": "http://localhost:3000/api/cursos/65da7fc697355a1317a5b51e",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-13T03:47:37.531Z",
+            "modified": "2024-02-25T00:10:10.892Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ5M2YyYTc1ZWEyNDU0YjIwYTVjMTgiLCJpYXQiOjE3MDg4MTk3OTQsImV4cCI6MTcwODgyMzM5NH0.VQCD3eeiqux-V12Ksiq5NoZYm4qBzcI0um5jt2Pu6pk"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4f69bc93-ad7c-41ce-a737-5d2e2d66f7aa",
+            "colId": "75875fc5-ab00-4f97-83c8-ceb091886998",
+            "containerId": "",
+            "name": "cursosProfesorGet",
+            "url": "http://localhost:3000/api/cursos/profesor",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-15T05:06:47.888Z",
+            "modified": "2024-02-25T00:27:02.697Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ5M2YyYTc1ZWEyNDU0YjIwYTVjMTgiLCJpYXQiOjE3MDg4MTUwMzQsImV4cCI6MTcwODgxODYzNH0.PxsNtrkoUoXayoR5tEXHrPqVVOs9RIDkiQIL-wdvGAg"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

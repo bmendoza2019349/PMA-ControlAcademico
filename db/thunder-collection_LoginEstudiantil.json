@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "LoginEstudiantil",
+    "dateExported": "2024-02-25T00:35:25.413Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f750f96f-69aa-4bce-9218-a465e5b8e635",
+            "colId": "ce449db8-7a3f-434d-ad77-67029bb56cd4",
+            "containerId": "",
+            "name": "getUsuariosLogin",
+            "url": "http://localhost:3000/api/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-14T16:04:22.396Z",
+            "modified": "2024-02-25T00:27:13.127Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\": \"teacher11@kinal.edu.gt\",\n  \"password\": \"1234\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

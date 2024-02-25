@@ -1,0 +1,114 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Alumnos",
+    "dateExported": "2024-02-25T00:35:16.808Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "57ca225c-9bb0-4fbf-8bd4-6ddc515578f2",
+            "colId": "a89fa7da-885f-45af-b2d2-c95c6e466085",
+            "containerId": "",
+            "name": "alumnosPost",
+            "url": "http://localhost:3000/api/alumnos",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-13T22:33:30.916Z",
+            "modified": "2024-02-24T00:14:22.083Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"alumno2\" ,\n  \"correo\":\"alumno2@kinal.edu.gt\", \n  \"password\":\"1234\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f9f95b61-7aeb-4c7e-a904-1e8a8252f6de",
+            "colId": "a89fa7da-885f-45af-b2d2-c95c6e466085",
+            "containerId": "",
+            "name": "alumnosDelete",
+            "url": "http://localhost:3000/api/alumnos/65d1acf80fd4e4912789aab0",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-13T23:09:59.274Z",
+            "modified": "2024-02-24T07:21:08.347Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ5MzRkZTYzZjQ3ZWNhZmY2NTRjMmUiLCJpYXQiOjE3MDg3NTkyMzIsImV4cCI6MTcwODc2MjgzMn0.HdHs5VIbYr1eDr7ByXTdUc60IfJZ-JFpBYSlWqxmsg0"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6f5c7f45-0fb2-4ed1-9bb5-10bbb306c2c4",
+            "colId": "a89fa7da-885f-45af-b2d2-c95c6e466085",
+            "containerId": "",
+            "name": "agregarCursoAlumno",
+            "url": "http://localhost:3000/api/alumnos/cursos",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-16T17:30:53.919Z",
+            "modified": "2024-02-24T08:16:21.969Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ5MzRkZTYzZjQ3ZWNhZmY2NTRjMmUiLCJpYXQiOjE3MDg3NTkyMzIsImV4cCI6MTcwODc2MjgzMn0.HdHs5VIbYr1eDr7ByXTdUc60IfJZ-JFpBYSlWqxmsg0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombreMateria\": \"Practica Supervisada\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "249181ae-5179-4171-b6ec-bb1f72628a3b",
+            "colId": "a89fa7da-885f-45af-b2d2-c95c6e466085",
+            "containerId": "",
+            "name": "getCursosAlumno",
+            "url": "http://localhost:3000/api/alumnos/cursos",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-02-18T06:39:08.417Z",
+            "modified": "2024-02-24T08:33:27.302Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ5MzRkZTYzZjQ3ZWNhZmY2NTRjMmUiLCJpYXQiOjE3MDg3NjM1NDUsImV4cCI6MTcwODc2NzE0NX0.25GTvwykL8k3Ot4vTg7waHD6EhYVlreoAP52BWMkeiE"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "16b3cfc2-f9ec-4b73-8484-599f9e405240",
+            "colId": "a89fa7da-885f-45af-b2d2-c95c6e466085",
+            "containerId": "",
+            "name": "alumnosPut",
+            "url": "http://localhost:3000/api/alumnos/65d934de63f47ecaff654c2e",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-02-24T01:43:07.900Z",
+            "modified": "2024-02-24T07:32:47.432Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ5MzRkZTYzZjQ3ZWNhZmY2NTRjMmUiLCJpYXQiOjE3MDg3NTkyMzIsImV4cCI6MTcwODc2MjgzMn0.HdHs5VIbYr1eDr7ByXTdUc60IfJZ-JFpBYSlWqxmsg0"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"alumno2 prueba\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

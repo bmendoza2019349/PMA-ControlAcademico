@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Profesores",
+    "dateExported": "2024-02-25T00:34:50.823Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f1fdc7e0-9bdb-45f3-b063-f8eb64a79dd2",
+            "colId": "d7cd677f-73af-4fbd-96dc-b5c69d7ada34",
+            "containerId": "",
+            "name": "profesoresPost",
+            "url": "http://localhost:3000/api/profesores",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-12T21:52:56.392Z",
+            "modified": "2024-02-24T00:58:18.884Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"nombre\": \"teacher11\", \n   \"correo\": \"teacher11@kinal.edu.gt\", \n   \"password\": \"1234\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
