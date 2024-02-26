@@ -4,39 +4,9 @@ const { validarJWT } = require('../middlewares/validar-jwt');
 const { validarCampos } = require('../middlewares/validar-campos');
 const { existenteProfesorEmail, existeProfesorById} = require('../helpers/db-validators');
 
-const { profesoresDelete, profesoresGet, profesoresPost, profesoresPut, getProfesorByid} = require('../controllers/profesor.controller');
+const {profesoresPost} = require('../controllers/profesor.controller');
 
 const router = Router();
-
-router.get("/", profesoresGet);
-
-router.get(
-    "/:id",
-    [
-        check("id","El id no es un formato válido de MongoDB").isMongoId(),
-        check("id").custom(existeProfesorById),
-        validarCampos
-    ], getProfesorByid);
-
-
-    
-router.put(
-    "/:id",
-    [
-        check("id","El id no es un formato válido de MongoDB").isMongoId(),
-        check("id").custom(existeProfesorById),
-        check("role", "El role no existe en la base de datos."),
-        validarCampos
-    ], profesoresPut);
-
-router.delete(
-    "/:id",
-    [
-        validarJWT,
-        check("id","El id no es un formato válido de MongoDB").isMongoId(),
-        check("id").custom(existeProfesorById),
-        validarCampos
-    ],profesoresDelete);
 
 router.post(
     "/",
